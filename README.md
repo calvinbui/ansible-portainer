@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.com/calvinbui/ansible-portainer.svg?branch=master)](https://travis-ci.com/calvinbui/ansible-portainer)
+![GitHub release](https://img.shields.io/github/release/calvinbui/ansible-portainer.svg)
+![Ansible Quality Score](https://img.shields.io/ansible/quality/40716.svg)
+![Ansible Role](https://img.shields.io/ansible/role/d/40716.svg)
+
 # Ansible Portainer
 
 Portainer in Docker
