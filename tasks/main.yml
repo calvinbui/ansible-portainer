@@ -21,9 +21,3 @@
 - name: Create Portainer container
   docker_container: "{{ portainer_container_parameters | combine(portainer_docker_additional_options) }}"
   register: portainer_container
-
-- name: Wait for Portainer start
-  wait_for:
-    port: "{{ portainer_ports[0].split(':')[0] }}"
-    host: "{{ portainer_container.container.NetworkSettings.IPAddress }}"
-    timeout: 60
